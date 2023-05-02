@@ -1,0 +1,35 @@
+
+
+.container{
+    width: 70%;
+    margin: 20px auto;
+}
+
+.kn{
+    text-align: center;
+}
+
+.out{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item{
+    margin: 20px;
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 2rem;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bok{
+    padding: 10px;
+    font-size: 1.5rem;
+    width: 100px;
+}
