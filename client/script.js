@@ -2,8 +2,8 @@
 const knopka = document.querySelector('.bok');
 const list = document.querySelector('.out');
 
-//let host = 'http://45.12.239.38:3000';
-let host = 'http://localhost:3000';
+let host = 'http://45.12.239.38:3000';
+// let host = 'http://localhost:3000';
 
 async function zapros(url, fun){
    let z = await fetch(url);
